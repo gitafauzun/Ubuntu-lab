@@ -11,7 +11,8 @@ Key Achievements
 •	Configured execution rights (+x) for automation scripts.
 3. Bash Scripting & Automation
 •	Cleanup Automation: Developed a cleanup.sh script to identify and report empty files (0 byte) within specific directories.
-•	Error Handling: Integrated robust verification logic, such as directory existence checks, to ensure script reliability.
+•	Error Handling: Integrated robust verification logic, such as directory existence checks, to ensure script reliability. 
+-->> https://github.com/gitafauzun/Ubuntu-lab/blob/main/script_uzantilari/scriptfile/temizlik.sh
 4. Scheduled Tasks (Cron Jobs)
 •	Configured crontab to automate the execution of maintenance scripts at specific intervals (e.g., daily at 03:00 AM).
 5. Version Control (Git)
