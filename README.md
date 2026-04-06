@@ -17,5 +17,5 @@ Key Achievements
 5. Version Control (Git)
 •	Initialized a local Git repository (git init) to track the project lifecycle.
 •	Documented changes using meaningful commit messages.
-•	Configured .gitignore to prevent tracking of unnecessary logs and temporary files.
+•	Configured .gitignore to prevent tracking of unnecessary logs and temporary files..
 
