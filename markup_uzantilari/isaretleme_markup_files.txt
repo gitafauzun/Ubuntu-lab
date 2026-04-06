@@ -1,0 +1,9 @@
+şaretleme (Markup) Dosyaları
+.md (Markdown): GitHub gibi platformlarda dokümantasyon (README dosyaları) yazmak için kullanılır.
+Şu an benim yazdığım bu format bir Markdown örneğidir.
+
+Oluşturma: touch README.md
+
+.html / .css: Web sayfaları oluşturmak için.
+
+Oluşturma: touch index.html style.css

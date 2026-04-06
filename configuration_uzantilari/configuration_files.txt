@@ -1,0 +1,11 @@
+Notlar:
+
+.yaml veya .yml: Docker ve Kubernetes gibi araçlarda çok kullanılır. Okunması çok kolaydır.
+
+Oluşturma: nano dosyaadi.yml
+
+.json: Veri saklamak ve uygulamalar arası veri transferi için kullanılır.
+
+Oluşturma: echo "{}" > dosyaadi.json
+
+.conf veya .config: Yazılımların ayar dosyalarıdır.

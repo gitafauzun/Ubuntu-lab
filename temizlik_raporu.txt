@@ -1,0 +1,11 @@
+/home/useruzun/myfile/script_uzantilari/scriptfile/python1.py
+/home/useruzun/myfile/script_uzantilari/scriptfile/dosya1.txt
+/home/useruzun/myfile/script_uzantilari/scriptfile/shell_script1.sh
+/home/useruzun/myfile/script_uzantilari/scriptfile/bos_python.py
+/home/useruzun/myfile/script_uzantilari/scriptfile/javascript1.js
+/home/useruzun/myfile/markup_uzantilari/README.md
+/home/useruzun/myfile/markup_uzantilari/html.html
+/home/useruzun/myfile/markup_uzantilari/css.css
+/home/useruzun/myfile/markup_uzantilari/bos_sayfa.html
+/home/useruzun/myfile/configuration_uzantilari/bos_ayar.conf
+/home/useruzun/myfile/temizlik_raporu.txt

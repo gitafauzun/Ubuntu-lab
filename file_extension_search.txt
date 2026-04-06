@@ -1,0 +1,27 @@
+Dosyanın Türünü Öğrenmek
+Eğer bir dosyanın uzantısı yoksa veya ne olduğunu merak ediyorsan
+ terminale şu komutu yazabilirsin:
+file dosya_adı
+Örnek: file new1 komutu sana o dosyanın bir "ASCII text",
+(metin dosyası) olduğunu söyleyecektir.
+Komutun Anatomisi
+find: Arama işlemini başlatan ana komut.
+. (Nokta): Aramanın nereden başlayacağını belirtir. Nokta, "şu an içinde bulunduğum klasörden başla" demektir. 
+(Eğer / yazsaydın tüm bilgisayarda arardı).
+-name: Aramayı "dosya ismine göre" yapacağını belirtir.
+"*.txt": Arama kriterin. Buradaki * (yıldız) işareti bir "wildcard" (joker karakter) olup,
+ismi ne olursa olsun ama sonu .txt ile bitsin anlamına gelir.
+ Alternatif Kullanımlar
+Bu komutu ihtiyacına göre biraz daha özelleştirebilirsin:
+Büyük/Küçük Harf Duyarsız Arama (-iname):
+Eğer dosyanın adı NOT.TXT veya not.txt olabilirse, -name yerine -iname kullanmalısın:
+find . -iname "*.txt"
+Sadece Dosyaları Ara (-type f):
+Bazen klasör isimleri de .txt ile bitebilir. Sadece gerçek dosyaları listelemek istersen:
+find . -type f -name "*.txt"
+Belirli Bir Klasörde Ara:
+Şu anki yerinde değil de, örneğin sadece "Belgeler" içinde aramak istersen:
+find ~/Documents -name "*.txt"
+ Pratik Bir İpucu
+Eğer ekranda çok fazla sonuç çıkarsa ve aralarında kaybolursan, sonucu sayfa sayfa görmek için komutun sonuna şunu ekleyebilirsin:
+find . -name "*.txt" | less
